@@ -9,32 +9,19 @@ Bu proje, Laravel framework'ü kullanılarak geliştirilen bir video yükleme ve
 - **Video Oynatma:** Yüklenen videolar doğrudan platform üzerinden oynatılabilir.
 - **Güvenlik Analizi:** Bandit kütüphanesi kullanılarak kod güvenlik analizi yapılabilir.
 
-## Kurulum
-### 1. Projeyi Klonlayın
-```bash
-git clone https://github.com/kullanici/video-projesi.git
-cd video-projesi
-```
 
-### 2. Bağımlılıkları Kurun
-```bash
-composer install
-npm install
-```
-
-### 3. Ortam Dosyasını Yapılandırın
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 `.env` dosyasını açarak veritabanı bilgilerinizi düzenleyin.
 
-### 4. Veritabanını Migrasyon ve Seed Etme
+###  Veritabanını Migrasyon ve Seed Etme
 ```bash
 php artisan migrate --seed
 ```
 
-### 5. Sunucuyu Başlatın
+###  Sunucuyu Başlatın
 ```bash
 php artisan serve
 ```
@@ -74,10 +61,6 @@ Projeye katkıda bulunmak için aşağıdaki adımları takip edebilirsiniz:
 4. Branch’i gönderin: `git push origin yeni-ozellik`
 5. Bir pull request oluşturun.
 
-## Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır.
 
----
 
-Herhangi bir sorun yaşarsanız, lütfen [GitHub Issues](https://github.com/kullanici/video-projesi/issues) bölümünden bildirin.
 
